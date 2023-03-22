@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header h1 {
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.navbar li {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px 25px;
+}
+
+.social-icon {
+}
+
+.social-icon a {
+  padding: 30px 20px;
+}
